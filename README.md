@@ -8,17 +8,17 @@ The course provides an introduction to the basics of cryptocurrency wallets, sho
 
 The course includes the following lessons:
 
-1. [Introduction to blockchain and wallets](https://github.com/iohkedu/cardano-education-program/tree/lace-course/lace-course/01-lessons/01-Introduction-to-blockchain-and-wallets.md):   
+1. [Introduction to blockchain and wallets](https://github.com/iohkedu/cardano-education-program/tree/lace-course/lace-course/01-lesson/01-Introduction-to-blockchain-and-wallets.md):   
   1.1 Basic blockchain terms   
   1.2. Introduction to cryptocurrency wallets    
   1.3. Best security practices   
   1.4. Cryptographic keys in wallets (*somewhat technical*)  
   1.5. Key generation for wallets (*somewhat technical*)  
-2. [Installing and setting up Lace](https://github.com/iohkedu/cardano-education-program/tree/lace-course/lace-course/02-lessons/02-Installing-and-setting-up-Lace.md):   
+2. [Installing and setting up Lace](https://github.com/iohkedu/cardano-education-program/tree/lace-course/lace-course/02-lesson/02-Installing-and-setting-up-Lace.md):   
   2.1. How to install Lace  
   2.2. How to set up a new wallet   
   2.3. Restoring an existing wallet   
-3. [Simple transactions and settings](https://github.com/iohkedu/cardano-education-program/tree/lace-course/lace-course/03-lessons/03-Simple-transactions-and-settings.md):   
+3. [Simple transactions and settings](https://github.com/iohkedu/cardano-education-program/tree/lace-course/lace-course/03-lesson/03-Simple-transactions-and-settings.md):   
   3.1. Lace main page   
   3.2. Requesting funds from the Cardano faucet  
   3.3. Sending test ada to another address   
