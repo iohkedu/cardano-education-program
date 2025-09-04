@@ -78,7 +78,7 @@ Type in your recovery phrase. The process is the same as outlined earlier. Then,
 
 Give your wallet a name and set up a password. When entering the password, a progress bar will appear to indicate its strength. Choose a strong password and proceed by clicking **Open wallet**. 
 
-![Tokens welcome screen][https://github.com/iohkedu/cardano-education-program/blob/lace-course/images/2/02-03-04.png]
+![alt text][https://github.com/iohkedu/cardano-education-program/blob/lace-course/images/2/02-03-04.png]
 
 You can now view the main wallet screen, which displays your current balance and a welcome message. The page also shows the wallet address, which in our case is: 
 
