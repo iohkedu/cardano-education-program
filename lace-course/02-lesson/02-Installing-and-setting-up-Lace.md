@@ -1,6 +1,6 @@
 # 2. Installing and setting up Lace 
 
-This lesson covers the procedure for installing and setting up Lace, a lightweight Cardano wallet. If you already have a Cardano crypto wallet and want to start using Lace, refer to the last section, *Restoring an existing wallet*. 
+This lesson covers the procedure for installing and setting up Lace, a lightweight Cardano wallet. If you already have a Cardano crypto wallet and want to start using Lace, refer to the last section, [*Restoring an existing wallet*](https://github.com/iohkedu/cardano-education-program/blob/lace-course/lace-course/02-lesson/02-Installing-and-setting-up-Lace.md#23-restoring-an-existing-wallet). 
 
 The name Lace is derived from the name Lovelace, which was the last name of Ada Lovelace, a 19th-century English mathematician and writer who wrote the world's first computer program. She realized that computers would be able to do more than just calculate or perform number crunching (source: [simple wiki](https://simple.wikipedia.org/wiki/Ada_Lovelace)). Cardano’s native currency is called ada, which is divided into lovelace. One million lovelace represents one ada. 
 
@@ -12,7 +12,7 @@ We note that there are other wallets in the Cardano ecosystem, including:
 
 ## 2.1 How to install Lace
 
-At the time of writing, Lace is supported in Google Chrome, Edge, and Firefox browsers. Lace can also be installed on Chromium-based browsers, such as Brave; however, this has not been officially tested. The safest way to install Lace is to visit the [lace.io](http://lace.io) website. The *Add to browser* button at the top right corner leads to the Lace browser extension in the Chrome, Microsoft, and Firefox web stores. In the Chrome web store, you can also see a blue checkmark, and the tooltip explains why this browser extension is safe. Click **Install** and locate your extension in the *Extensions* settings page after installation. 
+At the time of writing, Lace is supported in Google Chrome, Edge, and Firefox browsers. Lace can also be installed on Chromium-based browsers, such as Brave; however, this has not been officially tested. The safest way to install Lace is to visit the [lace.io](http://lace.io) website. The **Add to browser** button at the top right corner leads to the Lace browser extension in the Chrome, Microsoft, and Firefox web stores. In the Chrome web store, you can also see a blue checkmark, and the tooltip explains why this browser extension is safe. Click **Install** and locate your extension in the *Extensions* settings page after installation. 
 
 Once Lace is installed, it will get automatically updated. You will see a notification window after opening Lace if the wallet has been updated, which will also list new features of Lace. You can check the Lace version in your browser’s Extensions settings window.  
 
@@ -40,7 +40,8 @@ In the image above, the recovery phrase is hidden. Write down the recovery phras
 
 ![][image4]
 
-When typing in the recovery phrase words, use the Tab key to autocomplete a single word. As mentioned in the *Key generation for wallets* section, the first four letters unambiguously define a seed word. After entering the last word, Lace will check if the last word, which contains the checksum of previously input data, is correct. Then, click **Next** and the wallet setup window appears.    
+When typing in the recovery phrase words, use the Tab key to autocomplete a single word. As mentioned in the [*Key generation for wallets*](https://github.com/iohkedu/cardano-education-program/blob/lace-course/lace-course/01-lessons/01-Introduction-to-blockchain-and-wallets.md#15-key-generation-for-wallets) section, the first four letters unambiguously define a seed word. After entering the last word, Lace will check if the last word, which contains the checksum of previously input data, is correct. Then, click **Next** and the wallet setup window appears.    
+
 ![][image5]
 
 Now you need to create a password. When entering the password, a progress bar will appear to indicate its strength. If the password is too weak, Lace will not allow you to set up your wallet. The password must then be reentered. After that, you can click **Open wallet**, and the main page of the Lace wallet will appear. 
