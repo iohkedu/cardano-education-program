@@ -56,7 +56,7 @@ addr1qyh8v5qqcqfhfpkv8sxjxulw09m24r3ac6uns49cpwfndy0tdewcc2l3v2reur6jl2amk2jnfr6
 
 You can also use the scannable QR code to get your address. Close Lace and try to reopen it from the browser’s *Extensions* menu. The following window will appear: 
 
-![Lace wallet in small format](https://github.com/iohkedu/cardano-education-program/blob/lace-course/images/2/02-02-07.png)
+![Lace wallet in small format](https://github.com/iohkedu/cardano-education-program/blob/lace-course/images/2/02-02-07.png =495x656)
 
 You can use your wallet in this format, or expand it to full screen by clicking the four arrows. Sometimes, when opening the wallet, a notification appears that provides information about a new version. 
 
