@@ -41,14 +41,8 @@ The course includes the following lessons:
   6.2. Creating native tokens and NFTs   
   6.3. Usability of tokens and NFTs   
   6.4. Buying and selling tokens on DEX   
-
-Lessons that will be added soon: 
-
 7. Ada handles   
   7.1. Handle basics   
   7.2. How to get a handle   
-  7.3. Benefits and modifications of ada handles    
-  7.4. Additional tools and plans   
-8. Hardware wallets and Lace   
-  8.1. Ledger wallet   
-  8.2. Trezor wallet 
+  7.3. Benefits and personalization of ada handles      
+  7.4. Sub-handles    
