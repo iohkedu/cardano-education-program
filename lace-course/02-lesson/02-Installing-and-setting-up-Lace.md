@@ -60,7 +60,7 @@ You can also use the scannable QR code to get your address. Close Lace and try t
 
 You can use your wallet in this format, or expand it to full screen by clicking the four arrows. Sometimes, when opening the wallet, a notification appears that provides information about a new version. 
 
-![Lace notification message](https://github.com/iohkedu/cardano-education-program/blob/lace-course/images/2/02-02-08.png)
+<img src="https://github.com/iohkedu/cardano-education-program/blob/lace-course/images/2/02-02-08.png" alt="Lace notification message" width="495" height="656">
 
 ## 2.3 Restoring an existing wallet
 
