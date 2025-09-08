@@ -31,7 +31,7 @@ There are two test networks used for testing Cardano upgrades and applications d
 
 For both networks, you can request test ada from the [Cardano faucet](https://docs.cardano.org/cardano-testnets/tools/faucet).   
 
-![Cardano faucet](https://github.com/iohkedu/cardano-education-program/blob/lace-course/images/3/03-02-01.png)
+<img src="https://github.com/iohkedu/cardano-education-program/blob/lace-course/images/3/03-02-01.png" alt="Cardano faucet" width="680" height="934">
 
 The preview network is displayed by default, so select the preprod network. Note that since Lace is set to the main network by default, you should first switch it to the preprod network to obtain your preprod address. To do this, click the **Settings** button, which displays the wallet name and account number on the top bar, located on the right side. The wallet settings panel opens on the right side, as shown in the image below. 
 
@@ -43,7 +43,7 @@ At the bottom of the information panel, the **Network** indicates **Mainnet**. C
 
 The wallet address in the main window changes. It now starts with the prefix: addr_test. Copy your address and enter it into the **Address** field of the Cardano faucet. Leave the *API key* field empty. Next, click the **reCAPTCHA checkbox** and request some test ada by clicking **Request funds**. A confirmation message should appear indicating that the transaction was successful. 
 
-![Cardano faucet confirmation message](https://github.com/iohkedu/cardano-education-program/blob/lace-course/images/3/03-02-04.png) 
+<img src="https://github.com/iohkedu/cardano-education-program/blob/lace-course/images/3/03-02-04.png" alt="Cardano faucet confirmation message" width="823" height="601">
 
 The image above explains that once you are done with testing, you can send your test ada back to the preprod or preview faucet addresses. 
 
@@ -57,7 +57,7 @@ Click **Activity** to see the list of processed transactions. Currently, it disp
 
 If you click on the received transaction, a side panel opens, providing more details about the transaction. It displays the transaction ID (hash), the received amount, the sender's address, the transaction timestamp, and the transaction fee paid. It is also possible to view the inputs and outputs of the transaction. To understand inputs and outputs, it is essential to have a basic understanding of the [Extended UTXO](https://ucarecdn.com/3da33f2f-73ac-4c9b-844b-f215dcce0628/EUTXOhandbook_for_EC.pdf) model that Cardano uses. It is an extension of the UTXO model used by Bitcoin. 
 
-![Transaction details](https://github.com/iohkedu/cardano-education-program/blob/lace-course/images/3/03-02-07.png)
+<img src="https://github.com/iohkedu/cardano-education-program/blob/lace-course/images/3/03-02-07.png" alt="Transaction details" width="635" height="975">
 
 ## 3.3 Sending test ada to another address 
 
@@ -65,7 +65,7 @@ Now that you have test ada, you can send it to another address. Lace allows for 
 
 By default, only account #0 is activated. To activate account #1, click the **Settings** button in the top right corner and select the **>** symbol in the panel that opens. A list of inactive accounts is displayed. Click **Enable** next to account #1. The wallet will prompt you to input your password. 
 
-![Accounts panel](https://github.com/iohkedu/cardano-education-program/blob/lace-course/images/3/03-03-01.png)
+<img src="https://github.com/iohkedu/cardano-education-program/blob/lace-course/images/3/03-03-01.png" alt="Accounts panel" width="305" height="627">
 
 After that, your Lace homepage will display a new address with a balance of 0.00 USD. 
 
@@ -79,7 +79,7 @@ addr_test1qq742eedhsfkydh73fsz83lhcc35632wjqqjkp9fk437f460kz7ntlmzuh7lnxr4mry4pu
 
 Copy that address and click the **Settings** button and the **>** sign. From the list of accounts, click  **account #0**. You will now see your previous balance of 10.000 test ada on the homepage. Click **Send** at the top. 
 
-![Send panel](https://github.com/iohkedu/cardano-education-program/blob/lace-course/images/3/03-03-03.png)
+<img src="https://github.com/iohkedu/cardano-education-program/blob/lace-course/images/3/03-03-03.png" alt="Send panel" width="637" height="945">
 
 The send panel appears. Enter the copied address of account #1 and indicate the amount of ada to send to that address (eg, 10 test ada). There is also an option to add a note to the transaction, with a maximum of 160 characters. After entering the transaction details, click **Review transaction**. 
 
