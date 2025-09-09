@@ -83,11 +83,11 @@ Copy that address and click the **Settings** button and the **>** sign. From the
 
 The send panel appears. Enter the copied address of account #1 and indicate the amount of ada to send to that address (eg, 10 test ada). There is also an option to add a note to the transaction, with a maximum of 160 characters. After entering the transaction details, click **Review transaction**. 
 
-![Tansaction summary](https://github.com/iohkedu/cardano-education-program/blob/lace-course/images/3/03-03-04.png)
+<img src="https://github.com/iohkedu/cardano-education-program/blob/lace-course/images/3/03-03-04.png" alt="Tansaction summary" width="642" height="858">
 
 A transaction summary then appears. Review it and click **Confirm**. Enter your password when prompted and click **Confirm** again. After that, a confirmation message should appear, and you will be able to view the transaction. 
 
-![Confirmation message](https://github.com/iohkedu/cardano-education-program/blob/lace-course/images/3/03-03-05.png)
+<img src="https://github.com/iohkedu/cardano-education-program/blob/lace-course/images/3/03-03-05.png" alt="Confirmation message" width="626" height="797">
 
 Clicking **View transaction** takes you to the **Activity** view, where you will see your transaction –  10.17 test ada sent. The 0.17 test ada is the transaction fee. 
 
@@ -109,7 +109,7 @@ Clicking the **Settings** button in the upper-right corner launches the settings
 
 First, you will see the current account number and wallet name. As explained in the previous section, you can switch between multiple accounts in Lace, each with a unique address. If you click the pen button next to the arrow button at the top, a panel appears that allows you to modify the wallet and account names. 
 
-![Wallet name configuration panel](https://github.com/iohkedu/cardano-education-program/blob/lace-course/images/3/03-04-02.png)
+<img src="https://github.com/iohkedu/cardano-education-program/blob/lace-course/images/3/03-04-02.png" alt="Wallet name configuration panel" width="636" height="729">
 
 Below the wallet and account name, a status bar indicates whether or not the wallet is synced with the blockchain. Since the wallet needs to sync periodically, the status may occasionally display ‘*Not synced to the blockchain*’ or ‘*Wallet syncing*’. If these messages persist, you can also reopen the wallet to refresh the status. Once synced, the status will be ‘*Wallet synced*’. You can submit transactions no matter the status. Once the wallet is synced, the transaction will be broadcast to the network. 
 
