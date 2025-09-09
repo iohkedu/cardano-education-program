@@ -118,7 +118,7 @@ Quick settings include such options as:
 * ***Add a new wallet***. You can add another wallet to Lace by creating a new wallet, importing an existing one, or connecting a hardware wallet.   
 * ***Address book***. You can store and view saved addresses associated with a user-defined name.   
 * ***Settings***. Opens up the full Lace settings window.   
-* *Sign message*. Allows to cryptographically sign a user-defined message to prove the authenticity of the message.   
+* ***Sign message***. Allows to cryptographically sign a user-defined message to prove the authenticity of the message.   
 * ***Light mode***. The toggle allows switching between light and dark mode.   
 * ***Nami mode***. The toggle allows switching between the Lace wallet and the Nami wallet, which is now part of Lace.    
 * ***Network***. Allows a user to switch the network to which Lace is connecting. 
