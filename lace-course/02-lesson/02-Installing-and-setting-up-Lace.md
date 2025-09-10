@@ -6,7 +6,7 @@ The name Lace is derived from the name Lovelace, which was the last name of Ada 
 
 We note that there are other wallets in the Cardano ecosystem, including: 
 
-* [Yoroi](https://yoroi-wallet.com/), a lightweight wallet developed by Emurgo, a founding entity of Cardano   
+* [Yoroi](https://yoroiwallet.com/), a lightweight wallet developed by Emurgo, a founding entity of Cardano   
 * [Etrnl](https://eternl.io/), a lightweight wallet developed by a company from the Cardano ecosystem   
 * [Daedalus](https://daedaluswallet.io/), a full-node wallet developed by IO. 
 
@@ -14,11 +14,11 @@ We note that there are other wallets in the Cardano ecosystem, including:
 
 At the time of writing, Lace is supported in Google Chrome, Edge, and Firefox browsers. Lace can also be installed on Chromium-based browsers, such as Brave; however, this has not been officially tested. The safest way to install Lace is to visit the [lace.io](http://lace.io) website. The **Add to browser** button at the top right corner leads to the Lace browser extension in the Chrome, Microsoft, and Firefox web stores. In the Chrome web store, you can also see a blue checkmark, and the tooltip explains why this browser extension is safe. Click **Install** and locate your extension in the *Extensions* settings page after installation. 
 
-Once Lace is installed, it will get automatically updated. You will see a notification window after opening Lace if the wallet has been updated, which will also list new features of Lace. You can check the Lace version in your browser’s Extensions settings window.  
+Once Lace is installed, it will get automatically updated. You will see a notification window after opening Lace if the wallet has been updated, which will also list new features of Lace. You can check the Lace version in your browser’s *Extensions* settings window.  
 
 ## 2.2 How to set up a new Lace wallet 
 
-Once Lace is installed as a browser extension, open the wallet from your Extensions settings page. The following screen will appear:  
+Once Lace is installed as a browser extension, open the wallet from your *Extensions* settings page. The following screen will appear:  
 
 ![Lace options for wallet setup](https://github.com/iohkedu/cardano-education-program/blob/lace-course/images/2/02-02-01.png)
 
@@ -32,7 +32,7 @@ Choosing any of the three options means you agree to Lace’s terms of service a
 
 ![Recovery method options](https://github.com/iohkedu/cardano-education-program/blob/lace-course/images/2/02-02-02.png)
 
-Choose whether to generate a 24-word recovery phrase or a scannable QR code encrypted with a PGP key. In this tutorial, we will select the recovery phrase. Click **Next** to create your recovery phrase. 
+Choose whether to generate a 24-word recovery phrase or a scannable QR code encrypted with a [PGP key](https://simple.wikipedia.org/wiki/Pretty_Good_Privacy). In this tutorial, we will select the recovery phrase. Click **Next** to create your recovery phrase. 
 
 ![Recovery phrase](https://github.com/iohkedu/cardano-education-program/blob/lace-course/images/2/02-02-03.png)
 
@@ -40,11 +40,11 @@ In the image above, the recovery phrase is hidden. Write down the recovery phras
 
 ![Enter recovery phrase](https://github.com/iohkedu/cardano-education-program/blob/lace-course/images/2/02-02-04.png)
 
-When typing in the recovery phrase words, use the Tab key to autocomplete a single word. As mentioned in the [*Key generation for wallets*](https://github.com/iohkedu/cardano-education-program/blob/lace-course/lace-course/01-lessons/01-Introduction-to-blockchain-and-wallets.md#15-key-generation-for-wallets) section, the first four letters unambiguously define a seed word. After entering the last word, Lace will check if the last word, which contains the checksum of previously input data, is correct. Then, click **Next** and the wallet setup window appears.    
+When typing in the recovery phrase words, use the **Tab** key to autocomplete a single word. As mentioned in the [*Key generation for wallets*](https://github.com/iohkedu/cardano-education-program/blob/lace-course/lace-course/01-lessons/01-Introduction-to-blockchain-and-wallets.md#15-key-generation-for-wallets) section, the first four letters unambiguously define a seed word. After entering the last word, Lace will check if the last word, which contains the checksum of previously input data, is correct. Then, click **Next** and the wallet setup window appears.    
 
 ![Wallet name and password](https://github.com/iohkedu/cardano-education-program/blob/lace-course/images/2/02-02-05.png)
 
-Now you need to create a password. When entering the password, a progress bar will appear to indicate its strength. If the password is too weak, Lace will not allow you to set up your wallet. The password must then be reentered. After that, you can click **Open wallet**, and the main page of the Lace wallet will appear. 
+You can set a wallet name and you will need to create a password. When entering the password, a progress bar will appear to indicate its strength. If the password is too weak, Lace will not allow you to set up your wallet. The password must then be reentered. After that, you can click **Open wallet**, and the main page of the Lace wallet will appear. 
 
 ![Tokens welcome screen](https://github.com/iohkedu/cardano-education-program/blob/lace-course/images/2/02-02-06.png)
 

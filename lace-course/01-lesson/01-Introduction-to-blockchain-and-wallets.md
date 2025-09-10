@@ -65,7 +65,7 @@ Subsequent lessons of this course cover the topics above.
 
 A **DApp** is a web-based application that consists of one or more smart contracts and code that handles transaction logic. Users can connect their cryptocurrency wallets to a DApp to interact with it.  
 
-A **decentralized exchange** (DEX) is a platform where one or more smart contracts instead of a central authority, enable fund management. These contracts define the rules for exchanging cryptocurrency and tokens. A DEX is one example of a sophisticated DApp.  
+A **decentralized exchange** (DEX) is a platform where one or more smart contracts instead of a central authority, enable funds management. These contracts define the rules for exchanging cryptocurrency and tokens. A DEX is one example of a sophisticated DApp.  
 
 ## 1.2 Introduction to cryptocurrency wallets  
 

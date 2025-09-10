@@ -44,5 +44,5 @@ The course includes the following lessons:
 7. Ada handles   
   7.1. Handle basics   
   7.2. How to get a handle   
-  7.3. Benefits and personalization of ada handles      
+  7.3. Benefits of ada handles and personalization 
   7.4. Sub-handles    
