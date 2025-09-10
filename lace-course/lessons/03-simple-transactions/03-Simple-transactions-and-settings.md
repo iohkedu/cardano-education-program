@@ -132,4 +132,4 @@ Click **Settings** to view the full Lace settings, which are grouped into six ca
 * ***Legal***. Allows viewing of the terms and conditions, privacy policy, and cookie policy documents.   
 * ***Remove wallet***. Used to uninstall the wallet extension from the browser. The wallet can be restored at any time if the user has access to its recovery phrase. This action does not affect the wallet balance in any way. 
 
-After viewing the wallet settings, you can return to the main window by clicking **Tokens** on the right side. 
+After viewing the wallet settings, you can return to the main window by clicking **Tokens** on the right side.
