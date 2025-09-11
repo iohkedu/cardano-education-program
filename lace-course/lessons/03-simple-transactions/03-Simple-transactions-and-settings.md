@@ -29,7 +29,7 @@ The information button displays information about the active window. We will go 
 
 There are two test networks used for testing Cardano upgrades and applications developed by Cardano builders: **preview network** and **pre-production network (preprod)**. The preview network is where updates are first tested, and its parameters (epoch time, for example) differ from the main network. We will explain this term in the staking lesson. After certain functionality is well-tested, final tests are conducted on the pre-production network, which mimics the main network as closely as possible. 
 
-For both networks, you can request test ada from the [Cardano faucet](https://docs.cardano.org/cardano-testnets/tools/faucet).   
+For both test networks, you can request test ada from the [Cardano faucet](https://docs.cardano.org/cardano-testnets/tools/faucet). 
 
 <img src="images/03-02-01.png" alt="Cardano faucet" width="680" height="934">
 
@@ -41,7 +41,7 @@ At the bottom of the information panel, the **Network** indicates **Mainnet**. C
 
 ![Network selection panel](images/03-02-03.png)
 
-The wallet address in the main window changes. It now starts with the prefix: addr_test. Copy your address and enter it into the **Address** field of the Cardano faucet. Leave the *API key* field empty. Next, click the **reCAPTCHA checkbox** and request some test ada by clicking **Request funds**. A confirmation message should appear indicating that the transaction was successful. 
+The wallet address in the main window changes. It now starts with the prefix: `addr_test`. Copy your address and enter it into the *Address* field of the Cardano faucet. Leave the *API key* field empty. Next, click the reCAPTCHA checkbox and request some test ada by clicking **Request funds**. A confirmation message should appear indicating that the transaction was successful. 
 
 <img src="images/03-02-04.png" alt="Cardano faucet confirmation message" width="823" height="601">
 
@@ -55,15 +55,17 @@ Click **Activity** to see the list of processed transactions. Currently, it disp
 
 ![Activity view](images/03-02-06.png)
 
-If you click on the received transaction, a side panel opens, providing more details about the transaction. It displays the transaction ID (hash), the received amount, the sender's address, the transaction timestamp, and the transaction fee paid. It is also possible to view the inputs and outputs of the transaction. To understand inputs and outputs, it is essential to have a basic understanding of the [Extended UTXO](https://ucarecdn.com/3da33f2f-73ac-4c9b-844b-f215dcce0628/EUTXOhandbook_for_EC.pdf) model that Cardano uses. It is an extension of the UTXO model used by Bitcoin. 
+If you click on the received transaction, a side panel opens, providing more details about the transaction. It displays the transaction ID (hash), the received amount, the sender's address, the transaction timestamp, and the transaction fee paid. It is also possible to view the inputs and outputs of the transaction.  
 
 <img src="images/03-02-07.png" alt="Transaction details" width="635" height="975">
+
+To understand inputs and outputs, it is essential to have a basic understanding of the Extended UTXO model that Cardano uses. It is an extension of the UTXO model used by Bitcoin. For more information refer to the [Cardano documentation](https://docs.cardano.org/about-cardano/learn/eutxo-explainer), [EUTXO handbook](https://ucarecdn.com/3da33f2f-73ac-4c9b-844b-f215dcce0628/EUTXOhandbook_for_EC.pdf) or the [EUTXO chapter](https://github.com/input-output-hk/mastering-cardano/blob/main/chapters/chapter-04-how-cardano-works/chapter-utxo.adoc) in the Mastering Cardano book. 
 
 ## 3.3 Sending test ada to another address 
 
 Now that you have test ada, you can send it to another address. Lace allows for multiple accounts to be stored in a single wallet, each with a unique address. You can try sending some test ada from one address to another. 
 
-By default, only account #0 is activated. To activate account #1, click the **Settings** button in the top right corner and select the **>** symbol in the panel that opens. A list of inactive accounts is displayed. Click **Enable** next to account #1. The wallet will prompt you to input your password. 
+By default, only account #0 is activated. To activate account #1, click the **Settings** button in the top right corner and select the `>` symbol in the panel that opens. A list of inactive accounts is displayed. Click **Enable** next to account #1. The wallet will prompt you to input your password. 
 
 <img src="images/03-03-01.png" alt="Accounts panel" width="305" height="627">
 
@@ -77,7 +79,7 @@ The new address is now:
 addr_test1qq742eedhsfkydh73fsz83lhcc35632wjqqjkp9fk437f460kz7ntlmzuh7lnxr4mry4puk8k7yzyl330tft5ft0yrgshyh6jk
 ```
 
-Copy that address and click the **Settings** button and the **>** sign. From the list of accounts, click  **account #0**. You will now see your previous balance of 10.000 test ada on the homepage. Click **Send** at the top. 
+Copy that address, click the **Settings** button and the `>` sign. From the list of accounts, click  **account #0**. You will now see your previous balance of 10.000 test ada on the *Tokens* view. Click **Send** at the top. 
 
 <img src="images/03-03-03.png" alt="Send panel" width="637" height="945">
 
@@ -120,7 +122,7 @@ Quick settings include such options as:
 * ***Settings***. Opens up the full Lace settings window.   
 * ***Sign message***. Allows to cryptographically sign a user-defined message to prove the authenticity of the message.   
 * ***Light mode***. The toggle allows switching between light and dark mode.   
-* ***Nami mode***. The toggle allows switching between the Lace wallet and the Nami wallet, which is now part of Lace.    
+* ***Nami mode***. The toggle allows switching between the Lace wallet and the [Nami wallet](https://www.namiwallet.io/), which is now part of Lace.    
 * ***Network***. Allows a user to switch the network to which Lace is connecting. 
 
 Click **Settings** to view the full Lace settings, which are grouped into six categories: 
