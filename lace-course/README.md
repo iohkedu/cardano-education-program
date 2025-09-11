@@ -2,7 +2,7 @@
 
 Welcome to the Lace Wallet Course! This course is designed to help you understand the fundamentals of blockchain technology, the Cardano ecosystem, and how to use the Lace Wallet effectively. Whether you're new to blockchain or an experienced user, this course will guide you through key concepts, practical steps, and advanced features of the Lace Wallet.
 
-This material is intended for educations purposes only.
+This material is intended for educational purposes only.
 
 ## Course Overview
 
