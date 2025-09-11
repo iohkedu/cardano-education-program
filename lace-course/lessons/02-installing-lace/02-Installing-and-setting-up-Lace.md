@@ -1,6 +1,6 @@
 # 2. Installing and setting up Lace 
 
-This lesson covers the procedure for installing and setting up Lace, a lightweight Cardano wallet. If you already have a Cardano crypto wallet and want to start using Lace, refer to the last section, [*Restoring an existing wallet*](https://github.com/iohkedu/cardano-education-program/blob/lace-course/lace-course/02-lesson/02-Installing-and-setting-up-Lace.md#23-restoring-an-existing-wallet). 
+This lesson covers the procedure for installing and setting up Lace, a lightweight Cardano wallet. If you already have a Cardano crypto wallet and want to start using Lace, refer to the last section, *Restoring an existing wallet* of this lesson. 
 
 The name Lace is derived from the name Lovelace, which was the last name of Ada Lovelace, a 19th-century English mathematician and writer who wrote the world's first computer program. She realized that computers would be able to do more than just calculate or perform number crunching (source: [simple wiki](https://simple.wikipedia.org/wiki/Ada_Lovelace)). Cardano’s native currency is called ada, which is divided into lovelace. One million lovelace represents one ada. 
 
@@ -40,7 +40,7 @@ In the image above, the recovery phrase is hidden. Write down the recovery phras
 
 ![Enter recovery phrase](images/02-02-04.png)
 
-When typing in the recovery phrase words, use the **Tab** key to autocomplete a single word. As mentioned in the [*Key generation for wallets*](https://github.com/iohkedu/cardano-education-program/blob/lace-course/lace-course/01-lessons/01-Introduction-to-blockchain-and-wallets.md#15-key-generation-for-wallets) section, the first four letters unambiguously define a seed word. After entering the last word, Lace will check if the last word, which contains the checksum of previously input data, is correct. Then, click **Next** and the wallet setup window appears.    
+When typing in the recovery phrase words, use the **Tab** key to autocomplete a single word. As mentioned in the *Key generation for wallets* section from lesson one, the first four letters unambiguously define a seed word. After entering the last word, Lace will check if the last word, which contains the checksum of previously input data, is correct. Then, click **Next** and the wallet setup window appears.    
 
 ![Wallet name and password](images/02-02-05.png)
 
