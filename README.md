@@ -1,7 +1,7 @@
 
 # Lace wallet course 
 
-| :information_source: | This course is designed for educational purposes only. |  
+| :information_source: | This course is provided for educational purposes only. |  
 |----------------------|:-------------------------------------------------------|  
 
 The course provides an introduction to the basics of cryptocurrency wallets, showcasing the [Lace](https://www.lace.io/) Cardano wallet. The first lesson introduces cryptocurrency wallets and applies to all blockchains. Other lessons explain how to install and use the Lace wallet, which was developed by [Input | Output](https://iohk.io/) (IO) – one of the companies that develops the core technology behind Cardano. This course is suited for beginners with no prior knowledge of wallets and blockchain, as well as for those new to Cardano. Some sections of this course are somewhat technical. If you have any questions that are not covered in the course, refer to [Lace FAQ](https://www.lace.io/faq) or ask a question on the [Lace Discord channel](https://discord.com/invite/Qq5vNTg9PT) that is part of IOG’s technical community. 
