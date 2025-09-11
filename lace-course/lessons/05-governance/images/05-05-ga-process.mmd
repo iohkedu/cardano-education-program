@@ -1,0 +1,39 @@
+flowchart TD
+
+A["**GA submission**
+Any ada holder can submit a GA and pay a refundable deposit"] --> B
+
+subgraph B["**Voting phase**"]
+  direction LR
+  B1["_DReps_
+  Vote with delegated ada"]
+  B2["_SPOs_
+  Vote with stake weight"]
+  B3["_Constitutional Committee_
+  Checks constitutionality"]
+end
+
+B1 --> C
+B2 --> C
+B3 --> C
+
+C["**Ratification**
+GA approved by 2 or 3 bodies depending on the type"] -. "Approved" .-> D["**Enactment**
+GA recorded on-chain"]
+D --> E["Effective at next epoch boundary"]
+
+C -. "Not approved" .-> X["**Not ratified**
+Deposit returned after conclusion"]
+
+%% --- Styling ---
+classDef submission fill:#d6eaff,stroke:#1c64f2,stroke-width:2px,color:#000;
+classDef voting fill:#e8f7e4,stroke:#16a34a,stroke-width:2px,color:#000;
+classDef ratification fill:#fff5d6,stroke:#f59e0b,stroke-width:2px,color:#000;
+classDef enactment fill:#f3e8ff,stroke:#9333ea,stroke-width:2px,color:#000;
+classDef outcome fill:#ffe4e6,stroke:#dc2626,stroke-width:2px,color:#000;
+
+class A submission;
+class B,B1,B2,B3 voting;
+class C ratification;
+class D,E enactment;
+class X outcome;
