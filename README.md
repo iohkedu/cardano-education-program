@@ -14,11 +14,11 @@ These material is under development and it's intended for learning purposes only
 
 Learn how to use the Lace Wallet effectively, from blockchain basics to advanced features like staking, governance, and managing tokens and NFTs.
 
-### [Haskell Course](haskell-course/)
+### [Haskell Course](haskell-course)
 
 An introduction to the Haskell programming language, tailored for developers looking to build on Cardano.
 
-### [Haskell Node Course](haskell-node-module/README.md)
+### [Haskell Node Module](haskell-node-module/README.md)
 
 Dive into the details of running and managing a Haskell-based Cardano node, including setup, configuration, and maintenance.
 
@@ -30,7 +30,7 @@ Understand the economics of Cardano, including staking, rewards, and the incenti
 
 Learn the fundamentals of Zero-Knowledge Proofs and their applications in blockchain technology, with a focus on Cardano.
 
-### [Aiken Module](aiken-module/)
+### [Aiken Module](aiken-module)
 
 Explore the Aiken smart contract language and its use in developing applications on Cardano.
 
