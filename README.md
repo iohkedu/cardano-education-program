@@ -32,7 +32,7 @@ Learn the fundamentals of Zero-Knowledge Proofs and their applications in blockc
 
 ### [Aiken Module](aiken-module/README.md)
 
-Explore the Aiken smart contract language and its use in developing Plutus-based applications on Cardano.
+Explore the Aiken smart contract language and its use in developing applications on Cardano.
 
 ---
 
