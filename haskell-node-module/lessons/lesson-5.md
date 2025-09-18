@@ -12,13 +12,14 @@ Let's start by introducing the Plutus family members:
 
 > NOTE: If you're wondering where Aiken fits in here, Aiken is another high-level language that targets UPLC but with its own compiler. Therefore, it would serve as an alternative to Plinth.
 
-Since this lecture is about the nodes' scripting layer, I wouldn't blame you if you thought we should be talking only about UPLC. However, it's hard to discuss UPLC alone, as both its design and implementation are tightly coupled with Plinth's compilation pipeline. 
+Since this lecture is about the nodes' scripting layer, I wouldn't blame you if you thought we should be talking only about UPLC. However, it's hard to discuss UPLC alone, as both its design and implementation are tightly coupled with Plinth's compilation pipeline.
 
 To help explain how these languages relate to each other, Plinth's compilation pipeline is shown in the figure below:
 
 ![Plinth compilation pipeline](img/plinth_compilation_pipeline.png)
 
 In broad terms, the compilation pipeline is as follows:
+
 1. The developer writes a validator using Plinth (a subset of Haskell).
 2. Haskell's GHC compiler translates the Plinth (Haskell) code to GHC Core and gives it to our custom GHC plugin.
 3. Our GHC Plugin takes the GHC Core representation of the smart contract and translates it into Plutus Intermediate Representation (PIR).
@@ -28,7 +29,7 @@ In broad terms, the compilation pipeline is as follows:
 
 Now that we have a rough idea of how the compiler works and the properties of each language, let's explore the Design Philosophy and Requirements that brought us here.
 
-#### Design Philosophy and Requirements
+### Design Philosophy and Requirements
 
 UPLC was designed with several key requirements in mind:
 
@@ -46,7 +47,7 @@ UPLC was designed with several key requirements in mind:
 
 - **Multiple source languages**: It would be nice if multiple source languages could be compiled to our scripting language. This would potentially encourage usage by developers who are more comfortable with one or the other of the source languages.
 
-#### Language Design
+### Language Design
 
 Here are *some* (non-exhaustive) design choices made by the Plutus Core team based on the design philosophy and requirements:
 
@@ -66,7 +67,7 @@ Here are *some* (non-exhaustive) design choices made by the Plutus Core team bas
 
 To avoid this lecture getting too long, we'll leave it here. However, if you're interested in learning more, links to the language specification and other related documentation can be found in the "more information section below.
 
-To summarize, the specification of Plutus Core can be described as: 
+To summarize, the specification of Plutus Core can be described as:
 
 ***System Fωμ* (the polymorphic lambda calculus with recursive types and higher-kinded types) with appropriate primitive types and operations**.
 
@@ -76,25 +77,25 @@ Now that we're familiar with what's happening in the settlement layer and all th
 
 - **The language to develop languages**: Haskell offers a combination of features - Generalised Algebraic Data Types (GADTs), purity, higher order functions, and parametric polymorphism - to name a few, that make it **particularly well-suited for programming language development**. Haskell is widely considered ideal for building embedded domain-specific languages (eDSLs) thanks to its powerful program manipulation capabilities.
 
-- **Program optimizations with minimal boilerplate**: Its purity, polymorphism, and referential transparency make it easier to reason about code and **allow implementing program optimizations elegantly with minimal boilerplate**. 
+- **Program optimizations with minimal boilerplate**: Its purity, polymorphism, and referential transparency make it easier to reason about code and **allow implementing program optimizations elegantly with minimal boilerplate**.
 
 - **Familiar Syntax**: Haskell enables an unconventional but powerful approach that we leverage to develop the Plinth language: Rather than being a typical eDSL, **Plinth is a subset of Haskell itself**. Users write ordinary Haskell code using the standard syntax, and compilation happens at the Haskell program's compile time, **via a GHC Core plugin**. Plinth lets users avoid unfamiliar and heavyweight syntactic constructs that aren't found in regular Haskell, and that are specifically designed to work with each individual eDSL.
 
 - **Avoid implementing tooling for eDSL:**Compared to building a new language, **Plinth is significantly easier to implement**. It allows us to reuse not only components of GHC's frontend, such as the lexer, parser, typechecker, and desugarer, but also Haskell's build tool (Cabal), debugger, testing frameworks, and meta-programming machinery. Each of these could be a substantial task for developers of a new language.
 
-- **Leveraging AI**: The rise of AI tooling further strengthens these advantages. LLMs are reasonably effective at **generating and explaining simple Haskell code**, while **they struggle significantly more with bespoke eDSLs or niche languages** due to the lack of training data. In general, we believe AI will have an outsized benefit and amplify the strengths of technologies that have strong merits, but are perceived as hard to learn - Haskell being a prime example. 
+- **Leveraging AI**: The rise of AI tooling further strengthens these advantages. LLMs are reasonably effective at **generating and explaining simple Haskell code**, while **they struggle significantly more with bespoke eDSLs or niche languages** due to the lack of training data. In general, we believe AI will have an outsized benefit and amplify the strengths of technologies that have strong merits, but are perceived as hard to learn - Haskell being a prime example.
 
 - **Compilation pipeline**: The architecture of the compilation pipeline (described in the previous section) is only feasible because of **Haskell's modular compiler and the powerful API for writing compiler plugins**.
 
-- **GHC Core maps naturally with UPLC**: Another advantage of Haskell to Plutus Core is that GHC Core - GHC's compact, expressive lambda-calculus-based intermediate language - **maps naturally to our on-chain language, Untyped Plutus Core (UPLC)**, itself a variant of the untyped lambda calculus. 
+- **GHC Core maps naturally with UPLC**: Another advantage of Haskell to Plutus Core is that GHC Core - GHC's compact, expressive lambda-calculus-based intermediate language - **maps naturally to our on-chain language, Untyped Plutus Core (UPLC)**, itself a variant of the untyped lambda calculus.
 
 - **Good alignment with formal verification**: Haskell aligns well with our formal verification goals. Our certified compiler framework uses Agda to verify compiler transformations, and **Haskell's interoperability with Agda allows seamless integration between the compiler and the certifier**.
 
 ---
 
 **More information:**
+
 - [Plutus Core Specification](https://plutus.cardano.intersectmbo.org/resources/plutus-core-spec.pdf)
 - [Plinth User Guide](https://plutus.cardano.intersectmbo.org/docs/)
 - [Plutus Report](https://plutus.cardano.intersectmbo.org/resources/plutus-report.pdf)
 - [The Plutus Compilation Pipeline: Understanding Plutus Core(s)](https://well-typed.com/blog/2022/08/plutus-cores/)
-

@@ -19,6 +19,7 @@ The consensus layer exhibits several key properties that make it robust and flex
 The consensus protocol is designed to be independent from a concrete choice of block, as well as a concrete choice of ledger, so that a single protocol can be run with different kinds of blocks and/or ledgers. Each of the three main responsibilities (leader check, chain selection, and block verification) defines its own 'view' on the data it requires.
 
 The design maintains clear boundaries between different layers:
+
 - **Network Layer**: Handles communication and peer management.
 - **Consensus Layer**: Manages consensus protocol execution and state.
 - **Ledger Layer**: Defines ledger structure, state, and update rules.
@@ -26,6 +27,7 @@ The design maintains clear boundaries between different layers:
 This separation allows each layer to evolve independently while maintaining clean interfaces between them.
 
 ### Three Core Responsibilities
+
 1. **Leader Check**: Runs at every slot and determines if the node should produce a block. This may require information extracted from the ledger state (e.g., stake information for Ouroboros Praos).
 
 2. **Chain Selection**: Refers to the process of choosing between two competing chains. The main criterion is typically chain length, but protocols may have additional requirements (e.g., preferring newer hot keys when cold keys are the same).
@@ -33,6 +35,7 @@ This separation allows each layer to evolve independently while maintaining clea
 3. **Block Verification**: While most validation is a ledger concern, the consensus layer is responsible for validating header fields specific to the consensus protocol (e.g., cryptographic proofs for entropy derivation in Praos).
 
 ### Combinator Pattern
+
 The consensus layer leverages combinators to build complex functionality from simpler components. For example:
 
 - **Hard Fork Combinator**: Manages transitions between different ledger types at specific points.
@@ -41,14 +44,14 @@ The consensus layer leverages combinators to build complex functionality from si
 
 ## Advantages of using Haskell to implement the Consensus layer
 
-- **Strong Correctness Guarantees**: Haskell's strong type system and purity help in writing code that is less prone to errors, which is crucial for a system where network downtime or blockchain corruption is unacceptable. 
+- **Strong Correctness Guarantees**: Haskell's strong type system and purity help in writing code that is less prone to errors, which is crucial for a system where network downtime or blockchain corruption is unacceptable.
 
-- **Testability**: Haskell's features, such as pure functions and referential transparency, make it easier to write unit tests and simulate various scenarios, including IO failures or different OS scheduling algorithms. We have an **executable specification for block header processing** which builds on the ledger specification and can be used to **conformance test a critical part of the consensus code**. Executable Formal Specifications of Ouroboros protocols naturally lend themselves to trace checkers for non-deterministic situations. 
+- **Testability**: Haskell's features, such as pure functions and referential transparency, make it easier to write unit tests and simulate various scenarios, including IO failures or different OS scheduling algorithms. We have an **executable specification for block header processing** which builds on the ledger specification and can be used to **conformance test a critical part of the consensus code**. Executable Formal Specifications of Ouroboros protocols naturally lend themselves to trace checkers for non-deterministic situations.
 
-- **Abstraction and Composability**: The Consensus layer is designed to be **highly abstract and composable**, allowing it to work with **different consensus algorithms and ledgers**. Haskell's support for higher-order functions, type classes, and algebraic data types facilitates the creation of such abstractions and composable code. We leveraged this aspect of Haskell when developing the Hard-Fork Combinator, one of our "crown jewels". 
+- **Abstraction and Composability**: The Consensus layer is designed to be **highly abstract and composable**, allowing it to work with **different consensus algorithms and ledgers**. Haskell's support for higher-order functions, type classes, and algebraic data types facilitates the creation of such abstractions and composable code. We leveraged this aspect of Haskell when developing the Hard-Fork Combinator, one of our "crown jewels".
 
-- **Maintainability and Adaptability**: The Cardano node has evolved significantly, with changes in consensus algorithms and ledgers. **Haskell's modularity and abstraction capabilities** contribute to writing code that is **easier to maintain and adapt to these changes**. 
+- **Maintainability and Adaptability**: The Cardano node has evolved significantly, with changes in consensus algorithms and ledgers. **Haskell's modularity and abstraction capabilities** contribute to writing code that is **easier to maintain and adapt to these changes**.
 
-- **Efficient Data Handling with Persistent Data Structures**: Haskell's support for **persistent data structures** is advantageous for managing the ledger state. By avoiding unnecessary data duplication, these structures are crucial for **efficiently maintaining multiple copies of the ledger state**. This efficiency is particularly important for enabling **fast rollbacks in the presence of forks**, as the Consensus layer might need to switch between different chains. 
+- **Efficient Data Handling with Persistent Data Structures**: Haskell's support for **persistent data structures** is advantageous for managing the ledger state. By avoiding unnecessary data duplication, these structures are crucial for **efficiently maintaining multiple copies of the ledger state**. This efficiency is particularly important for enabling **fast rollbacks in the presence of forks**, as the Consensus layer might need to switch between different chains.
 
-- **Sharing**: Haskell's **built-in sharing makes block trees natural and efficient to handle**, reducing errors and providing good performance. 
+- **Sharing**: Haskell's **built-in sharing makes block trees natural and efficient to handle**, reducing errors and providing good performance.
