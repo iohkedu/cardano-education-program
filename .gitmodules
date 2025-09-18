@@ -1,0 +1,3 @@
+[submodule "haskell-course"]
+	path = haskell-course
+	url = https://github.com/input-output-hk/haskell-course
