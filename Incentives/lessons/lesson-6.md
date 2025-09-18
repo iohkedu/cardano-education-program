@@ -62,6 +62,6 @@ This system forces an attacker to have significant "skin in the game." To launch
 
 #### **Where to go next?**
 
-* [Back to the Top](Incentives.md)
+* [Back to the index](../README.md)
 * Lesson 5: [How Rewards Are Shared](lesson-5.md)
 * Lesson 7: [The Beauty of Game Theory](lesson-7.md)

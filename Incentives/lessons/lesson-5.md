@@ -54,6 +54,6 @@ In total, Alice received 200 \+ 8 \+ 132 \=
 
 #### **Where to go next?**
 
-* [Back to the Top](Incentives.md)
+* [Back to the index](../README.md)
 * Lesson 4: [Where Does the Reward Money Come From?](lesson-4.md)
 * Lesson 6: [The "Refinements" \- Fine-Tuning for Fairness](lesson-6.md)

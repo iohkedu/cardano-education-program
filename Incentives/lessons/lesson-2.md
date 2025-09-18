@@ -26,6 +26,6 @@ Cardano's incentive system was designed from the ground up to prevent these conf
 
 #### **Where to go next?**
 
-* [Back to the Top](Incentives.md)
+* [Back to the index](../README.md)
 * Lesson 1: [Why Do We Even Need Incentives?](lesson-1.md)
 * Lesson 3: [The "Goldilocks" Configuration](lesson-3.md)

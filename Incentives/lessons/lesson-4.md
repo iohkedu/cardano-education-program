@@ -30,6 +30,6 @@ This decline is very gradual in the real system. The hope and expectation is tha
 
 #### **Where to go next?**
 
-* [Back to the Top](Incentives.md)
+* [Back to the index](../README.md)
 * Lesson 3: [The "Goldilocks" Configuration](lesson-3.md)
 * Lesson 5: [How Rewards Are Shared](lesson-5.md)

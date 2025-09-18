@@ -60,6 +60,6 @@ To further help this process, Cardano wallets don't just rank pools by their mos
 
 #### **Where to go next?**
 
-* [Back to the Top](Incentives.md)
+* [Back to the index](../README.md)
 * Lesson 6: [The "Refinements" \- Fine-Tuning for Fairness](lesson-6.md)
 * [Conclusion](Conclusion.md)

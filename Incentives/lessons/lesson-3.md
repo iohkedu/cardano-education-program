@@ -14,6 +14,6 @@ The goal of the entire incentives mechanism is to naturally lead the network to 
 
 #### **Where to go next?**
 
-* [Back to the Top](Incentives.md)
+* [Back to the index](../README.md)
 * Lesson 2: [It's Not All About the Money... But It Helps!](lesson-2.md)
 * Lesson 4: [Where Does the Reward Money Come From?](lesson-4.md)
