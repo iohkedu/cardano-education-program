@@ -1,0 +1,7 @@
+# 7.1 Handle basics
+
+A handle is a name between 1 and 15 characters long. It can include UTF-8 alphanumeric characters [a-z] [0-9] and/or such symbols: dash (-), underscore (_), or period (.). Every handle starts with the dollar sign ($) and can be up to 15 characters long. Cardano wallets and DApps that support handles allow users to enter the handle name into the receiver's address field instead of the full Cardano address. The handle is then resolved to the actual Cardano address. This makes it easier to remember a short, memorable name for an often-used Cardano address. Letter case does not matter, as all handles are converted to lowercase.  
+
+You can purchase a handle on the official [ada handles](https://handle.me/) page. Already minted handles can also be purchased directly from other users if the owner is willing to sell them. When a handle is purchased, the buyer receives an NFT. This NFT is used to resolve the handle name to the Cardano address where the NFT resides. There are some rules to follow when creating a handle. Hate speech, inappropriate words, and obscene phrases are not allowed. An algorithm automatically filters out such words. In case of doubt, one can contact the company for approval. To contact the company, go to the [ada handle](https://handle.me/) official page, open the menu on the right side and click **About**.  
+
+![Ada Handle purchase example](images\07-01-01.png)

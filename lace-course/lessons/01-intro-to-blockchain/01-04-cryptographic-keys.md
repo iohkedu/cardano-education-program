@@ -1,0 +1,16 @@
+# 1.4 Cryptographic keys
+
+*Note:* *This and the next section are somewhat technical for people without a technical background. However, we encourage you to read them and share any questions you may have with us.*
+
+Blockchain technology relies on public key cryptography. A cryptographic key can be used to sign a message. In the blockchain field, this message is a transaction. Signing transforms the message into a different type of data. Then, using cryptography, it can be proven that this message was signed with the key without revealing the key itself.
+
+A cryptographic key is a sequence of [bytes](https://simple.wikipedia.org/wiki/Byte) of fixed size. A byte is defined by 8 [bits](https://simple.wikipedia.org/wiki/Bit), which are the most basic form of information computers can store. Instead of bytes, another encoding can be used to display keys, for instance, the [hexadecimal](https://simple.wikipedia.org/wiki/Hexadecimal) system (numbers from zero to nine and letters from A to F) or the [bech32](https://en.bitcoin.it/wiki/Bech32) system that Bitcoin uses. In asymmetric cryptography, which is used in blockchain technology, keys are generated with an algorithm and come in pairs. One key is the private key, which the owner keeps secret, and the other key is the public key that they reveal. Public keys are generated from private keys. Due to the secure nature of key generation, an attacker cannot determine the private key by knowing the public key.  
+
+A blockchain can utilize the public key associated with a user's cryptocurrency address. If funds are stored at that address and the owner wants to spend them, they must sign the transaction, which represents our message, with their private key. The node that receives this transaction uses the public key and the signed transaction to verify that the transaction was indeed signed with the private key linked to the public key. This means that the owner of a private key is the only person who can spend the funds associated with the address that corresponds to the public key. Sometimes, public keys are not used directly for blockchain addresses, but their hashes are used instead. Refer to the official documentation to learn more about [Cardano addresses](https://docs.cardano.org/about-cardano/learn/cardano-addresses).
+
+The following videos explain blockchain basics by showcasing interactive demonstrations of how hashes, transaction signing, and PoW consensus work:  
+
+* [Blockchain 101 – a visual demo](https://www.youtube.com/watch?v=_160oMzblY8)
+* [Blockchain 101 – part 2 – public/private keys and signing](https://www.youtube.com/watch?v=xIDL_akeras).
+
+Cryptocurrency wallets are programs that manage cryptographic keys. Wallets display user addresses that represent public keys or are derived from them, and they also display the funds held at these addresses. They store private keys and sign transactions with them when a wallet owner wants to spend their funds. These transactions are then broadcast to the blockchain network. Wallets offer additional functionalities, and we will showcase the functionality of the Cardano Lace wallet in the following lessons. Next, we explain how cryptographic keys are generated.
