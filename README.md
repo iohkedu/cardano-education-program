@@ -1,10 +1,10 @@
 # Cardano Education Program
 
-The Cardano education program repository contains materials, resources, and documentation designed for an educational focus on Cardano.
+The Cardano Education Program (CEP) provides essential resources and documentation to help anyone learn about the Cardano blockchain.
 
-This set of courses and standalone modules has been designed to support a self-paced learning journey, allowing the learner to progress at their own pace.
+This collection of courses and standalone modules is designed to support a self-paced learning journey, allowing individuals to master the material at their own speed.
 
-These material is under development and it's intended for learning purposes only
+Please note that these educational materials are currently under development and are intended solely for learning purposes.
 
 ---
 
@@ -28,7 +28,7 @@ Understand the economics of Cardano, including staking, rewards, and the incenti
 
 ### [ZKP (Zero-Knowledge Proofs) Course](ZKP-and-cryptography-course/README.md)
 
-Learn the fundamentals of Zero-Knowledge Proofs and their applications in blockchain technology, with a focus on Cardano.
+Learn the fundamentals of zero-knowledge proofs and their applications in blockchain technology, with a focus on Cardano.
 
 ### [Aiken Module](https://github.com/iohkedu/aiken-module)
 
