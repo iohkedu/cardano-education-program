@@ -4,7 +4,9 @@ The Cardano Education Program (CEP) provides essential resources and documentati
 
 This collection of courses and standalone modules is designed to support a self-paced learning journey, allowing individuals to master the material at their own speed.
 
-Please note that these educational materials are currently under development and are intended solely for learning purposes.
+Each course is designed to provide a comprehensive understanding of its respective topic, with practical examples and hands-on exercises. Start your learning journey today!
+
+**Note:** These educational resources are currently under development and are intended solely for learning purposes.
 
 ---
 
@@ -36,4 +38,3 @@ Explore the Aiken smart contract language and its use in developing applications
 
 ---
 
-Each course is designed to provide a comprehensive understanding of its respective topic, with practical examples and hands-on exercises. Start your learning journey today!
