@@ -36,5 +36,9 @@ Learn the fundamentals of zero-knowledge proofs and their applications in blockc
 
 Explore the Aiken smart contract language and its use in developing applications on Cardano.
 
+### [Node Operation Course](https://iohkedu.github.io/node-course/)
+
+Learn how to operate and secure a Cardano node, build transactions and more with this node operation course.
+
 ---
 
