@@ -47,4 +47,4 @@ For instance, in case of Bitcoin blockchain, the total supply is capped at 21 mi
 
 * Back to lesson 5: [Cryptography](./5-cryptography.md)
 * Next, Lesson 7: [Accounting Model](./7-accounting-model.md)
-* [Index](./0-index.md)
+* [Index](../README.md)

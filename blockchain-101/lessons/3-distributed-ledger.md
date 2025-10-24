@@ -31,4 +31,4 @@ Note: The examples are only for the purpose of illustrating the difference betwe
 
 * Back to lesson 2: [Use Cases](./2-use-cases.md)
 * Next, Lesson 4: [Decentralization](./4-decentralization.md)
-* [Index](./0-index.md)
+* [Index](../README.md)

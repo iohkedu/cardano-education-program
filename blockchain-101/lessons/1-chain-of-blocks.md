@@ -19,4 +19,4 @@ Blockchains can be categorized in many ways. One of them would be **Private** an
 #### **Where to go?**
 
 * Next, Lesson 2: [Use Cases](./2-use-cases.md)
-* [Index](./0-index.md)
+* [Index](../README.md)

@@ -25,4 +25,4 @@ There is an effort from *University of Edinburgh* to measure decentralization an
 
 * Back to lesson 3: [Distributed Ledger](./3-distributed-ledger.md)
 * Next, Lesson 5: [Cryptography](./5-cryptography.md)
-* [Index](./0-index.md)
+* [Index](../README.md)

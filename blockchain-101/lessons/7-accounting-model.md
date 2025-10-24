@@ -76,4 +76,4 @@ Overall, accounting model is crucial aspect of blockchain because it dictates th
 
 * Back to lesson 6: [Consensus](./6-consensus.md)
 * Next, Lesson 8: [Blockchain Evolution](./8-blockchain-evolution.md)
-* [Index](./0-index.md)
+* [Index](../README.md)

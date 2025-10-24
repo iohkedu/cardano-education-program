@@ -77,4 +77,4 @@ To put it in perspective, how hard it is to guess one among 2<sup>256</sup> numb
 
 * Back to lesson 4: [Decentralization](./4-decentralization.md)
 * Next, Lesson 6: [Consensus](./6-consensus.md)
-* [Index](./0-index.md)
+* [Index](../README.md)

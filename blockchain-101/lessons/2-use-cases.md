@@ -18,4 +18,4 @@ Cryptocurrency is probably the best applied use case of blockchain because deep 
 
 * Back to lesson 1: [Chain of blocks](./1-chain-of-blocks.md)
 * Next, Lesson 3: [Distributed Ledger](./3-distributed-ledger.md)
-* [Index](./0-index.md)
+* [Index](../README.md)

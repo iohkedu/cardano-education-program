@@ -20,4 +20,4 @@ After 2nd generations introduced smart contracts, innovative concepts like decen
 
 * Back to lesson 7: [Accounting Model](./7-accounting-model.md)
 * Next, Lesson 9: [Cardano overview](./9-cardano-overview.md)
-* [Index](./0-index.md)
+* [Index](../README.md)

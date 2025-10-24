@@ -104,4 +104,4 @@ Smart contracts on Cardano allow for applications such as:
 #### **Where to go?**
 
 * Back to lesson 8: [Blockchain Evolution](./8-blockchain-evolution.md)
-* [Index](./0-index.md)
+* [Index](../README.md)
