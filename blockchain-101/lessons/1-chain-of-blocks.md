@@ -1,22 +1,26 @@
-## **Chain of blocks**
+## Chain of blocks
 
-The name **Blockchain** came from two words **Block** and **Chain** combined together. In the first blockchain (**Bitcoin**)'s whitepaper, the word **blockchain** was not mentioned at all. So what is blockchain? ...or maybe chain of blocks?
+The name **blockchain** comes from combining the words *block* and *chain*. Interestingly, in the first blockchain’s whitepaper – that of Bitcoin – the term blockchain was never mentioned. So what is a blockchain – or in other words, a chain of blocks?
 
-### What is blockchain?
+### What is a blockchain?
 
-In simple terms, think of it as a notebook that can have pages added indefinitely but here is the catch, it's a very special notebook beside unlimited pages. Each page of the notebook has to have 2 magical stamps. What makes these stamps magical is that it's generation is dependent on the page content as if it is stamping the page.
+In simple terms, imagine a notebook that can have pages added endlessly. But here’s the twist – it’s a very special notebook. Each page must include two 'magical stamps'. These stamps are generated based on the page's content, ensuring that every page is unique.
 
-Let's say that, *Stamp A* is for a page with text *"Cardano"*. If all pages with only **Cardano** word are stamped, then they all will have *Stamp A*. Moreover, each page has it's own stamp and previous page's stamp which makes link between pages. It also means that even if all pages had the same text, each page will have different stamps because previous page's stamp counts as part of the content, therefore, each page stamp will be generated on different content. Only the first page of the notebook is the exception because it has no previous page and it will have the Stamp A.
+For example, imagine that _Stamp A_ belongs to a page containing the word **Cardano**. Every page with that same word would have _Stamp A_. However, in this notebook, each page also includes the previous page’s stamp. This links the pages together. It also means that even if all pages had the same text, their stamps would still differ – because each one depends on the stamp from the previous page. The only exception is the very first page, which has no predecessor and therefore only carries _Stamp A_.
 
-It is now that pages are linked together like a chain. If we call the pages as blocks, then it is a *chain of blocks* ...or **blockchain**. **Block** is actually a set of data that can contain any information you want as same as, on a page, you can write anything you want. Additionally, there are few more little information on top of something you wrote. In case of pages, it'll be like page numbers, the magical stamp and more.
+This structure links the pages together like a chain. If we think of each page as a *block*, we now have a _chain of blocks_ – a **blockchain**. A block represents a collection of data, much like a page can hold written content. In a notebook, each page might include extra details, such as a page number, to keep things organized. Similarly, in a blockchain, each block includes its own important piece of information – the magical stamp – which helps maintain order and connection across the entire chain.
 
-The magic we are talking about here is not fairy tale because it's real and power of mathematics which we will talk in detail in **Cryptography**.
+Of course, this magic isn’t fantasy – it’s the power of **mathematics and cryptography**, which we’ll explore in another lesson.
 
-### Private and Public blockchains
+### Private and public blockchains
 
-Blockchains can be categorized in many ways. One of them would be **Private** and **Public**. It's all about access control. If anyone can access and participate in the blockchain freely, then it is **Public blockchain**, on which we will solely focus in this course. In subsequent lessons, the term blockchain will refer specifically to public blockchain unless explicitly said private or public. **Private blockchain** is the opposite, where the access is restricted or the participants are closed circle of people or entities.
+Blockchains can be categorized in different ways. One common distinction is between *private* and *public* blockchains – and it all comes down to access control. 
 
-#### **Where to go?**
+If anyone can freely access and participate in the network, it’s a public blockchain. This course will focus on public blockchains. From here on, when we use the term *blockchain*, it will refer to a public blockchain unless stated otherwise.
 
-* Next, Lesson 2: [Use Cases](./2-use-cases.md)
-* [Index](../README.md)
+In a private blockchain, on the other hand, access is limited to a selected group of people or organizations – a closed circle rather than an open network.
+
+### Further reading
+
+* Next lesson: [Use cases](./2-use-cases.md)
+* [Index](../README.md).
