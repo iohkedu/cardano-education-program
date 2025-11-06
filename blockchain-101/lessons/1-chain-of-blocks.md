@@ -1,6 +1,6 @@
 ## Chain of blocks
 
-The name **blockchain** comes from combining the words *block* and *chain*. Interestingly, in the first blockchain’s whitepaper – that of Bitcoin – the term blockchain was never mentioned. So what exactly is a blockchain, or a chain of blocks?
+The name **blockchain** comes from combining the words *block* and *chain*. Interestingly, in the first blockchain’s whitepaper – that of Bitcoin – the term blockchain was never mentioned. So what is a blockchain – or in other words, a chain of blocks?
 
 ### What is a blockchain?
 
