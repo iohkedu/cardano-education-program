@@ -1,12 +1,12 @@
-## **Accounting Model**
+## Accounting model
 
-Another thing whose name also came from real life due to it's similarity is wallets. Wallets manage private and public keys, keep track of balances of cryptocurrencies, also known as coins, sync blockchain, send transactions to the network and more under the hood. But how do blockchains store balances exactly? It's another important thing as it's used to check if one has sufficient balance to make new transactions. Can't do anything with empty wallet nowadays, can we, pun intended. **Accounting model** is the answer for how blockchain stores it and it sets the foundation how all the transactions must be formatted.
+Another term that came from real life because of its similarity is *wallets*. Wallets manage private and public keys, track cryptocurrency balances (also known as coins), synchronize with the blockchain, send transactions to the network, and handle much more behind the scenes. But how do blockchains actually store balances? That’s an important question, since it’s what allows the system to check whether someone has enough funds to make a new transaction. You can’t do much with an empty wallet these days – pun intended. The **accounting model** is the answer to how a blockchain stores balances and defines the structure that all transactions must follow.
 
-### Unspent Transaction Output (UTxO) model
+### Unspent transaction output (UTXO) model
 
-The **UTXO model** sometimes seem unintuitive at first but it's easy to understand. U, TX and O stand for Unspent, Transaction and Output, respectively. As the name suggests, it's about transaction outputs.
+The **UTXO model** sometimes seems unintuitive at first, but it's easy to understand. U, TX, and O stand for **u**nspent, **t**ransaction, and **o**utput, respectively. As the name suggests, it's about transaction outputs.
 
-We will follow an example that Bob sends Ted 100,000 ada coins which is a cryptocurrency of Cardano blockchain. Such transaction would look something like this.
+We will follow an example with Bob sending Ted 100,000 ada coins, which is a cryptocurrency of the Cardano blockchain. Such a transaction would resemble this:
 
 ```
                                                      *****
@@ -39,9 +39,9 @@ We will follow an example that Bob sends Ted 100,000 ada coins which is a crypto
                                                     *****
 ```
 
-Transactions have inputs and outputs. In this case, Bob's 1 million ada is the only input and two outputs, one belonging to Ted with 1 hundred thousand ada, the other going back to Bob for the change of 9 hundred thousand ada. Think of cash (money bills) here, you don't tear $10 in the middle and give half of the bill to buy $5 worth of something at supermarkets, but you give the bill of $10 as a whole and get the change of $5 bill back. The total of all inputs should match with the total of all outputs and transaction fees if there are any.
+Transactions have inputs and outputs. In this example, Bob’s 1 million ada is the only input, and there are two outputs: one to Ted for 100,000 ada, and one back to Bob as change for 900,000 ada. Think of it like using cash. You don’t tear a $10 bill in half to pay $5 at a store – you hand over the whole $10 bill and receive $5 in change. The total of all inputs must equal the total of all outputs plus any transaction fees.
 
-The 2 outputs would be UTXOs as they are transaction outputs but not spent yet. Here is the twist, transactions inputs take only UTXOs, which are transaction outputs. Once an output is used as an input, it no longer is **unspent** transaction output (UTXO) because it is spent, hence, UTXOs can only be spent once. So the transactions would happen like the following:
+The two outputs are UTXOs, since they are transaction outputs that have not yet been spent. Here’s the twist: transaction inputs can only come from UTXOs – which means from previous transaction outputs. Once an output is used as an input, it is no longer an unspent transaction output (UTXO) because it has been spent. Hence, each UTXO can only be used once. So, the transactions would proceed as follows:
 
 
 ```
@@ -64,16 +64,16 @@ The 2 outputs would be UTXOs as they are transaction outputs but not spent yet. 
                                               ***
 ```
 
-Couple of the blockchains that use the UTXO model are Bitcoin and Cardano blockchains. Blockchains have different consensus rules and use modified versions of a single accounting model. You might be wondering that how does the first UTXO come into existence when there are no transactions? The first UTXO(s) is/are special and created in the genesis block. The very first block of the chain is called genesis. As blockchains use variations of a model, for instance, in Bitcoin, there is an exception which is that the transaction minting new bitcoins don't require any inputs and can have only has outputs.
+Bitcoin and Cardano use the UTXO accounting model, for instance. Each blockchain follows its own consensus rules and applies a slightly modified version of the same accounting model. You might wonder how the first UTXO comes into existence when there are no previous transactions. The first UTXO is special – it’s created in the genesis block, the very first block of the chain. Since blockchains use variations of the model, there are exceptions. For example, in Bitcoin, the transaction that mints new bitcoins doesn’t require any inputs and contains only outputs.
 
 ### Account model
 
-The other accounting model blockchains use is the **Account model**. If UTXO was like cash, think of the account model as credit cards alike. It has literal balances and when a transaction is made, then the balance is updated accordingly, just like bank account balance. Ethereum and BNB Smart Chain (BSC) are two of the blockchains that use the account model.
+The other accounting model used by blockchains is the **account model**. If the UTXO model is like cash, the account model is more like a credit card. It tracks literal balances, and when a transaction occurs, the balance is updated accordingly – just like a bank account. Ethereum and BNB Smart Chain (BSC) are two examples of blockchains that use this model.
 
-Overall, accounting model is crucial aspect of blockchain because it dictates the fundamental design and format of transactions which propagates to other features like smart contracts, layer 2s and sidechains.
+Overall, the accounting model is a crucial aspect of blockchain design because it defines the fundamental structure and format of transactions, which in turn influence other features such as smart contracts, layer 2s, and sidechains.
 
-#### **Where to go?**
+### Further reading:
 
 * Back to lesson 6: [Consensus](./6-consensus.md)
-* Next, Lesson 8: [Blockchain Evolution](./8-blockchain-evolution.md)
-* [Index](../README.md)
+* Next lesson: [Blockchain evolution](./8-blockchain-evolution.md)
+* [Index](../README.md).
