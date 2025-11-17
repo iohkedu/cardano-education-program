@@ -1,6 +1,6 @@
 ## Chain of blocks
 
-The name **blockchain** comes from combining the words *block* and *chain*. Interestingly, in the first blockchain’s whitepaper – that of Bitcoin – the term blockchain was never mentioned. So what is a blockchain – or in other words, a chain of blocks?
+The name **blockchain** comes from combining the words *block* and *chain*. Interestingly, in the first blockchain’s [whitepaper](https://bitcoin.org/bitcoin.pdf) – that of Bitcoin – the term blockchain was never mentioned. So what is a blockchain – or in other words, a chain of blocks?
 
 ### What is a blockchain?
 
@@ -8,7 +8,7 @@ In simple terms, imagine a notebook that can have pages added endlessly. But her
 
 For example, imagine that _Stamp A_ belongs to a page containing the word **Cardano**. Every page with that same word would have _Stamp A_. However, in this notebook, each page also includes the previous page’s stamp. This links the pages together. It also means that even if all pages had the same text, their stamps would still differ – because each one depends on the stamp from the previous page. The only exception is the very first page, which has no predecessor and therefore only carries _Stamp A_.
 
-This structure links the pages together like a chain. If we think of each page as a *block*, we now have a _chain of blocks_ – a **blockchain**. A block represents a collection of data, much like a page can hold written content. In a notebook, each page might include extra details, such as a page number, to keep things organized. Similarly, in a blockchain, each block includes its own important piece of information – the magical stamp – which helps maintain order and connection across the entire chain.
+This structure links the pages together like a chain. If we think of each page as a *block*, we now have a _chain of blocks_ – a **blockchain**. A _block_ is simply a set of data that can store any kind of information, much like how a page can contain any text. Furthermore, there is a bit of extra essential information. For instance, pages might include things like page numbers, magical stamps, and more.
 
 Of course, this magic isn’t fantasy – it’s the power of **mathematics and cryptography**, which we’ll explore in another lesson.
 
