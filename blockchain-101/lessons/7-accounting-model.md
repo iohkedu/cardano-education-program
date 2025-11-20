@@ -39,7 +39,7 @@ We will follow an example with Bob sending Ted 100,000 ada coins, which is a cry
                                                     *****
 ```
 
-Transactions have inputs and outputs. In this example, Bob’s 1 million ada is the only input, and there are two outputs: one to Ted for 100,000 ada, and one back to Bob as change for 900,000 ada. Think of it like using cash. You don’t tear a $10 bill in half to pay $5 at a store – you hand over the whole $10 bill and receive $5 in change. The total of all inputs must equal the total of all outputs plus any transaction fees.
+Transactions have inputs and outputs. In this example, Bob’s 1 million ada is the only input, and there are two outputs: one to Ted for 100,000 ada, and one back to Bob as change for 900,000 ada. Think of it like using cash. You don’t tear a $10 bill in half to pay $5 at a store – you hand over the whole $10 bill and receive $5 in change. The total of all inputs must equal the total of all outputs plus transaction fees (if any).
 
 The two outputs are UTXOs, since they are transaction outputs that have not yet been spent. Here’s the twist: transaction inputs can only come from UTXOs – which means from previous transaction outputs. Once an output is used as an input, it is no longer an unspent transaction output (UTXO) because it has been spent. Hence, each UTXO can only be used once. So, the transactions would proceed as follows:
 
