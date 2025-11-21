@@ -1,21 +1,29 @@
-## **Use Cases**
+## Use cases
 
-Now that we have this special notebook. What can we do with it? The better question is, what should we write on it since we can write anything we want?
+Now that we have this special notebook, what can we actually do with it? Or better yet, what should we write in it, since we can record anything we want?
 
-### Magical Stamp
+### Magical stamp
 
-The magical stamp makes the essential link between adjacent pages. Furthermore, what the link enables is that in order to modify or even erase the page followed by lots of pages, all the following pages must be updated accordingly. Because magical stamps are generated from the page content and if the content is modified, then the page stamp will have to be different from the stamp that was made before the change, otherwise it will invalidate the page. The page could be stamped again so that it would have valid stamp but that would create a new stamp on the page. As a result, it leads to a cascade of problems. The very next page would have to have this new stamp and get itself a new stamp as well too because each page has to have 2 stamps, one for itself and another from previous page. And that creates a ripple effect where all the following pages after the modified page must be changed or it will become invalid pages. Erasing a page is almost the same thing as the next page needs to have the stamp from the previous page of the erased page to make the chain gapless and valid.
+The 'magical stamp' creates the essential link between pages. This link makes it nearly impossible to modify or erase a page without affecting all the pages that follow.
 
-### Where can we use it
+Because each stamp is generated from the content of its corresponding page, any change to the content will also change the stamp. If a page is altered, it must be re-stamped – but that new stamp will no longer match the next page, which contains the previous stamp as part of its own content. This creates a ripple effect: every page after the modified one would also need new stamps to stay valid.
 
-As we just saw, it's very difficult to modify pages deep in the notebook. So the best fitting would be something we don't want to change afterwards. To name a few, medical records, academic transcripts and financial transactions. By the way, it doesn't mean that a mistake cannot be fixed. For instance, if a wrong information is written then additionally writing which information is wrong and why will suffice. That's why there exists a joke that says, you don't truly delete something on blockchain because deleting just adds another entry saying it is deleted. (Deletion is not removing at all but adding.)
+Deleting a page causes a similar issue, since the chain must remain continuous. The next page would need to link back to the page preceding the deleted one to maintain the chain's validity.
+
+### Where can we use it?
+
+Because it’s so difficult to change information deep in the 'notebook', blockchain is best suited for data that should remain permanent. Examples include medical records, academic transcripts, and financial transactions.
+
+This doesn’t mean mistakes can’t be corrected. If wrong information is recorded, a new entry can simply note what was incorrect and why. There’s even a saying in the blockchain world: 'You don’t delete data – you just add another entry saying it’s deleted'. Deletion, in this sense, means adding information, not removing it.
 
 ### Cryptocurrency
 
-Cryptocurrency is probably the best applied use case of blockchain because deep down it is only numbers in terms of storage as same as money on banks' balance sheets are only numbers like the balance of your bank accounts. Moreover, it gives monetary incentives to participants. It is possible have a blockchain without any cryptocurrency but not a lot of people will use it without proper incentives. Who will pay for running it, electricity and computations. So public blockchains tend to have it's own cryptocurrencies and private blockchains can live without them as participants are incentivized by other means.
+Cryptocurrency is the most well-known and widely used application of blockchain. At its core, it’s just numbers stored digitally – much like the numbers in a bank account balance.
 
-#### **Where to go?**
+Cryptocurrencies add a key element: incentives. They reward participants for maintaining and securing the blockchain network. While it’s possible to have a blockchain without cryptocurrency, public blockchains typically include one to motivate users to contribute computing power and resources. Private blockchains, however, can function without a native currency, as participants are usually incentivized through other means.
+
+### Further reading:
 
 * Back to lesson 1: [Chain of blocks](./1-chain-of-blocks.md)
-* Next, Lesson 3: [Distributed Ledger](./3-distributed-ledger.md)
-* [Index](../README.md)
+* Next lesson: [Distributed ledger](./3-distributed-ledger.md)
+* [Index](../README.md).
