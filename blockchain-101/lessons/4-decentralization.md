@@ -4,7 +4,7 @@ Decentralization is one of the most fundamental principles of blockchain technol
 
 ### Lack of standards
 
-Blockchain technology is still in its early stages as an industry. One key element missing from its maturity is a set of **standards** – for example, how to measure decentralization or how to define what makes a blockchain ‘great’.
+Blockchain as an industry is still in its early stages. One thing that keeps it from reaching full maturity is the lack of common standards — for example, how to measure decentralization or how to define what makes a blockchain ‘great’.
 
 Is the best blockchain the fastest one? The most secure? Or perhaps the most decentralized? There are currently no universal standards to answer these questions.
 
@@ -15,18 +15,16 @@ As discussed earlier, a blockchain is a system in which multiple participants re
 However, determining whether a blockchain is *truly* decentralized isn’t straightforward. Let’s look at a few examples that show why:
 
 * A blockchain might have a fair distribution of coins, where no small group owns a large percentage. But if 80% of newly created coins consistently go to just a few participants, that network isn’t as decentralized as it seems.
-* A blockchain might be open for anyone to access and use, but what if joining the consensus process requires approval from existing validators? Even if those validators are welcoming, the system still depends on their collective permission, making it partly centralized.
-* Governance is another factor: who decides on protocol updates or new features? Are everyday token holders included in these decisions, or is it limited to developers or core contributors?
+* A blockchain might be open for anyone to access and use, but what if joining the consensus process requires approval from the existing participants? Even if they welcome new participants openly, the process still relies on their permission, and they could decide to stop accepting newcomers at any time.
+* Who decides and guides the new development updates or changes to the blockchain? Is regular holders' input taken into account, or is it limited to developers' opinions only?
 
-As these examples demonstrate, decentralization can be applied across various aspects of a blockchain, including coin distribution and validation, governance, and development.
+As you can see, decentralization can take any form across many aspects of a blockchain. But working in a decentralized way can also be challenging and, at times, inefficient. For instance, having a single entity verify a transaction is orders of magnitude faster than asking thousands of participants to verify it. Sometimes, it is evident that gains have been prioritized at the cost of losing a bit of decentralization. It could be as simple as treating 99% verification as the threshold for declaring a transaction complete, rather than requiring 100% verification from everyone. That 1% may seem insignificant, but it could boost throughput by 10%.
 
-Achieving decentralization is not easy, and it can often lead to reduced efficiency. For instance, having a single entity verify transactions is much faster than requiring thousands of participants to do so. Some projects, therefore, choose to sacrifice a small degree of decentralization for performance gains – perhaps accepting a 99% consensus instead of a 100% one to boost throughput. While this trade-off may seem minor, it has meaningful implications.
+Blockchain, or the first blockchain (Bitcoin), is said to have been invented due to a loss of trust in centralized power, such as big corporations and institutions. Losing even a small degree of decentralization shouldn’t be acceptable. If the speed of blockchains is all we care about, then making it fully centralized would solve the problem. Furthermore, humans as a civilization, already have fast transaction-processing systems, such as Visa or Mastercard, which can handle thousands of transactions per second and have been refined over decades. With that said, going through all the effort of building a blockchain only to centralize it would defeat the purpose of blockchain, wouldn’t it?
 
-The first blockchain, Bitcoin, was created as a response to the loss of trust in centralized institutions and corporations. Losing even a small degree of decentralization undermines that purpose. If speed were the only goal, a fully centralized system could easily achieve it – but that would defeat the entire purpose of blockchain.
+Just like adding more lanes to a road doesn’t solve a traffic jam, it’s not sustainable in the long run. Decentralization makes trust worthless, and its existence no longer matters – that’s why decentralization is also a fundamental principle which, unfortunately, not enough people appreciate.
 
-As the saying goes, 'Adding more lanes doesn’t solve traffic jams – it just shifts the problem elsewhere'. Similarly, centralization might offer short-term gains, but it sacrifices long-term resilience and trust. Decentralization, by contrast, removes the need for trust altogether, making systems inherently fair and transparent. Unfortunately, it remains one of blockchain’s least appreciated but most essential principles.
-
-For those interested in learning more, the [Edinburgh Decentralisation Index](https://informatics.ed.ac.uk/blockchain/edi) from the University of Edinburgh is an effort to quantify and measure decentralization across blockchain networks. 
+There is also an effort by the University of Edinburgh to measure decentralization, available at the [Edinburgh Decentralisation Index](https://informatics.ed.ac.uk/blockchain/edi).
 
 ### Further reading:
 
