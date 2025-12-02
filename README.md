@@ -12,6 +12,10 @@ Each course is designed to provide a comprehensive understanding of its respecti
 
 ## Courses
 
+### [Blockchain 101](blockchain-101/lessons/1-chain-of-blocks.md)
+
+Learn the fundamentals of blockchain technology and explore what makes a blockchain, a blockchain.
+
 ### [Lace Wallet Course](lace-course/README.md)
 
 Learn how to use the Lace Wallet effectively, from blockchain basics to advanced features like staking, governance, and managing tokens and NFTs.
